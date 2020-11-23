@@ -17,7 +17,7 @@ class Game
   public function displayKeyboard()
   {
     $output = '<div id="qwerty" class="section">';
-    $output .= '<form method="post" action="play.php"';
+    $output .= '<form method="post" action="play.php">';
     $output .= '<div class="keyrow">';
     $output .= $this->handleKey('q');
     $output .= $this->handleKey('w');
